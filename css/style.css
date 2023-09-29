@@ -1864,3 +1864,7 @@ form label {
     margin-top:-10px ;
   }
 }
+
+.sections {
+  display: none;
+}
