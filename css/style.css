@@ -10,11 +10,12 @@
 * 	Template Style 
 *
 * ======================================================= */
+
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'HONRESD', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #828282;
   background: #fff;
 }
@@ -64,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'HONRESD', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -103,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   line-height: 40px;
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'HONRESD', sans-serif;
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -322,7 +323,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 100vh;
   display: table;
   width: 100%;
 }
@@ -330,6 +331,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
     height: 600px;
+    margin-top:20vh;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -848,7 +850,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'HONRESD', sans-serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -1069,7 +1071,7 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'HONRESD', sans-serif;
   color: #f03c3c;
   font-size: 30px;
 }
@@ -1181,12 +1183,12 @@ form label {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 60px;
+  font-size: 48px;
   margin-bottom: 10px;
-  line-height: 1.5;
-  font-weight: bold;
+  line-height: 1.2;
+  font-weight: reguler;
   color: #f03c3c;
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'HONRESD', sans-serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1651,7 +1653,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'HONRESD', sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1845,3 +1847,20 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 480px) {
+  .simply-countdown > .simply-section {
+    width: 65px;
+    height: 65px;
+  }
+  .simply-countdown > .simply-section > div {
+    height: 65px;
+    width: 65px;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 25px;
+  }
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 8px;
+    margin-top:-10px ;
+  }
+}
