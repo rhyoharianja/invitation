@@ -1868,3 +1868,6 @@ form label {
 .sections {
   display: none;
 }
+.special-h2 {
+  font-size: 30px !important;
+}
