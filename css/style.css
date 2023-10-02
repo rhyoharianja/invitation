@@ -1882,5 +1882,6 @@ form label {
   width: 40vh;
   float: left;
   shape-outside: url('images/poster.png');
-  padding: 1em;
+  margin-right: 1em;
+  shape-margin: 1em;
 }
