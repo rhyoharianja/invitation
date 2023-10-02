@@ -1871,3 +1871,16 @@ form label {
 .special-h2 {
   font-size: 30px !important;
 }
+.text-wrapper {
+  position: relative;
+  width: 100%;
+}
+.text-wrapper p {
+  text-align: justify;
+}
+.text-wrapper .img-wrapper {
+  width: 40vh;
+  float: left;
+  shape-outside: url('images/poster.png');
+  padding: 1em;
+}
