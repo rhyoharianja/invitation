@@ -1,9 +1,5 @@
 {
     "require": {
         "mailchimp/marketing": "^3.0"
-    },
-    "config": {
-
-        "platform-check": false
     }
 }
